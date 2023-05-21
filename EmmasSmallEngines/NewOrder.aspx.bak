@@ -1,0 +1,107 @@
+﻿<%@ Page Title="Create New Order" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="NewOrder.aspx.cs" Inherits="EmmasSmallEngines.NewOrder" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+
+	<h2 class="mt-3"><%: Title %></h2>
+
+
+	<div class="card">
+
+		<div class="card-header">
+			<div class="row justify-content-center">
+				<div class="col-auto">
+					<asp:Label ID="lblOrderNumber" runat="server" Text="Order #" AssociatedControlID="txtOrderNumber"></asp:Label>
+				</div>
+				<div class="col-2">
+					<asp:TextBox ID="txtOrderNumber" runat="server" CssClass="col-12"></asp:TextBox>
+				</div>
+				<div class="col-auto">
+					<asp:Label ID="lblOrderDate" runat="server" Text="Order Date" AssociatedControlID="txtOrderDate"></asp:Label>
+				</div>
+				<div class="col-2">
+					<asp:TextBox ID="txtOrderDate" TextMode="Date" runat="server"></asp:TextBox>
+				</div>
+				<div class="col-auto">
+					<asp:Label ID="lblPaid" runat="server" Text="Paid" AssociatedControlID="chkPaid"></asp:Label>
+				</div>
+				<div class="col-auto">
+					<asp:CheckBox ID="chkPaid" runat="server" />
+				</div>
+			</div>
+		</div>
+		<div class="card-body">
+			<div class="col-5">
+				<asp:Panel ID="Panel1" runat="server" DefaultButton="btnSearchItem">
+					<div class="row mt-3">
+						<div class="col-5">
+							<asp:Label ID="lblItemID" runat="server" Text="Scan or Enter Item ID" AssociatedControlID="txtItemID" />
+						</div>
+						<div class="col-7">
+							<asp:TextBox ID="txtItemID" runat="server" CssClass="col-12" />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-5">
+							<asp:Label ID="lblQuantity" runat="server" Text="Quantity" AssociatedControlID="txtQuantity" />
+						</div>
+						<div class="col-7">
+							<asp:TextBox ID="txtQuantity" runat="server" CssClass="col-12" />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-5">
+							<asp:Label ID="lblArriveDate" runat="server" Text="Arrive Date" AssociatedControlID="txtArriveDate" />
+						</div>
+						<div class="col-7">
+							<asp:TextBox ID="txtArriveDate" TextMode="Date" runat="server" CssClass="col-12" />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-5">
+							<asp:Label ID="lblPrice" runat="server" Text="Price" AssociatedControlID="txtPrice" />
+						</div>
+						<div class="col-7">
+							<asp:TextBox ID="txtPrice" runat="server" CssClass="col-12" />
+						</div>
+					</div>
+					<div class="row mt-3">
+						<div class="col-5">
+							<asp:Label ID="lblInvoiceNumber" runat="server" Text="Invoice #" AssociatedControlID="txtInvoiceNumber" />
+						</div>
+						<div class="col-7">
+							<asp:TextBox ID="txtInvoiceNumber" runat="server" CssClass="col-12" />
+						</div>
+					</div>
+					<div class="row mt-3 justify-content-center">
+						<div class="col-12">
+							<asp:LinkButton ID="btnAddItem" OnClick="btnAddItem_Click" CausesValidation="true" CssClass="btn btn-primary float-left" runat="server" Text="Add Item" />
+							<asp:LinkButton ID="btnSearchItem" OnClick="btnSearchItem_Click" CausesValidation="true" runat="server" Text="" />
+						</div>
+					</div>
+					<div class="row mt-3 justify-content-center">
+						<asp:DetailsView ID="dvProduct" runat="server" AutoGenerateRows="False" DataKeyNames="id" DataSourceID="odsProduct" BorderStyle="Solid" BorderWidth="2px" CssClass="table table-striped">
+							<Fields>
+								<asp:BoundField DataField="id" HeaderText="ID" InsertVisible="False" ReadOnly="True" SortExpression="id" />
+								<asp:BoundField DataField="prodBrand" HeaderText="Brand" SortExpression="prodBrand" />
+								<asp:BoundField DataField="prodName" HeaderText="Name" SortExpression="prodName" />
+								<asp:BoundField DataField="prodDescription" HeaderText="Description" SortExpression="prodDescription" />
+								<asp:BoundField DataField="invQuantity" HeaderText="Stock" SortExpression="invQuantity" />
+								<asp:BoundField DataField="invSize" HeaderText="Size" SortExpression="invSize" />
+								<asp:BoundField DataField="invMeasure" HeaderText="Measure" SortExpression="invMeasure" />
+								<asp:BoundField DataField="invPrice" HeaderText="Price" SortExpression="invPrice" DataFormatString="{0:c}" />
+							</Fields>
+						</asp:DetailsView>
+					</div>
+				</asp:Panel>
+			</div>
+			<div class="col-7">
+				<asp:GridView ID="gvOrder" runat="server"></asp:GridView>
+			</div>
+		</div>
+	</div>
+	<asp:ObjectDataSource ID="odsProduct" runat="server" OldValuesParameterFormatString="original_{0}" SelectMethod="GetData" TypeName="EmmasLibrary.NewOrderPageDataSetTableAdapters.ProductTableAdapter">
+		<SelectParameters>
+			<asp:ControlParameter ControlID="txtItemID" Name="Param1" PropertyName="Text" Type="Int32" />
+		</SelectParameters>
+	</asp:ObjectDataSource>
+</asp:Content>

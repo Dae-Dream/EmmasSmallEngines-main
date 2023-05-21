@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+namespace EmmasSmallEngines
+{
+	public partial class Equipment : System.Web.UI.Page
+	{
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			btnEdit.CssClass = btnEdit.CssClass.Replace("btn-primary", "btn-secondary");
+			btnEdit.Enabled = false;
+
+			btnRepair.CssClass = btnRepair.CssClass.Replace("btn-primary", "btn-secondary");
+			btnRepair.Enabled = false;
+		}
+		protected void btnSaveEquip_Click(object sender, EventArgs e)
+		{
+			//Response.Redirect("~/Customers.aspx");
+		}
+		protected void btnRepair_Click(object sender, EventArgs e)
+		{
+			Response.Redirect("~/Repairs.aspx");
+		}
+		protected void btnNew_Click(object sender, EventArgs e)
+		{
+			
+		}
+		protected void btnEdit_Click(object sender, EventArgs e)
+		{
+
+		}
+		protected void btnDelete_Click(object sender, EventArgs e)
+		{
+			
+		}
+		protected void btnGoToCustomer_Click(object sender, EventArgs e)
+		{
+			Response.Redirect("~/Customers.aspx");
+		}
+
+		protected void listEquipment_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			if(listEquipment.SelectedIndex == -1)
+			{
+				btnEdit.Enabled = false;
+				btnEdit.CssClass = btnEdit.CssClass.Replace("btn-primary", "btn-secondary");
+
+				btnRepair.Enabled = false;
+				btnRepair.CssClass = btnRepair.CssClass.Replace("btn-primary", "btn-secondary");
+			} else
+			{
+				btnEdit.Enabled = true;
+				btnEdit.CssClass = btnEdit.CssClass.Replace("btn-secondary", "btn-primary");
+
+				btnRepair.Enabled = true;
+				btnRepair.CssClass = btnRepair.CssClass.Replace("btn-secondary", "btn-primary");
+			}
+		}
+	}
+}

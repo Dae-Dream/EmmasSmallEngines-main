@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EquipmentPageDataSet" targetNamespace="http://tempuri.org/EquipmentPageDataSet.xsd" xmlns:mstns="http://tempuri.org/EquipmentPageDataSet.xsd" xmlns="http://tempuri.org/EquipmentPageDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="EmmasConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="EmmasConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.EmmasLibrary.Properties.Settings.GlobalReference.Default.EmmasConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="customerTableAdapter" GeneratorDataComponentClassName="customerTableAdapter" Name="customer" UserDataComponentName="customerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="EmmasConnectionString (Settings)" DbObjectName="dbo.customer" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        custFirst + ' ' + custLast AS custFullName, id
+FROM            customer</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="custFullName" DataSetColumn="custFullName" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="equipmentTableAdapter" GeneratorDataComponentClassName="equipmentTableAdapter" Name="equipment" UserDataComponentName="equipmentTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="EmmasConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        equipment.id, equipment.equModel, equipment.equSerial, equipment.custID, equipment.equtypeID, equipment.equManuID, equip_type.eqtType, manufacturer.manName
+FROM            equipment INNER JOIN
+                         equip_type ON equipment.equtypeID = equip_type.id INNER JOIN
+                         manufacturer ON equipment.equManuID = manufacturer.id</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="equModel" DataSetColumn="equModel" />
+              <Mapping SourceColumn="equSerial" DataSetColumn="equSerial" />
+              <Mapping SourceColumn="custID" DataSetColumn="custID" />
+              <Mapping SourceColumn="equtypeID" DataSetColumn="equtypeID" />
+              <Mapping SourceColumn="equManuID" DataSetColumn="equManuID" />
+              <Mapping SourceColumn="eqtType" DataSetColumn="eqtType" />
+              <Mapping SourceColumn="manName" DataSetColumn="manName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="equip_typeTableAdapter" GeneratorDataComponentClassName="equip_typeTableAdapter" Name="equip_type" UserDataComponentName="equip_typeTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="EmmasConnectionString (Settings)" DbObjectName="dbo.equip_type" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        eqtType, id
+FROM            equip_type</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="eqtType" DataSetColumn="eqtType" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="manufacturerTableAdapter" GeneratorDataComponentClassName="manufacturerTableAdapter" Name="manufacturer" UserDataComponentName="manufacturerTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="EmmasConnectionString (Settings)" DbObjectName="dbo.manufacturer" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        id, manName
+FROM            manufacturer</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="manName" DataSetColumn="manName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="EquipmentUpdateTableAdapter" GeneratorDataComponentClassName="EquipmentUpdateTableAdapter" Name="EquipmentUpdate" UserDataComponentName="EquipmentUpdateTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="EmmasConnectionString (Settings)" DbObjectName="dbo.equipment" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [equipment] WHERE (([id] = @Original_id) AND ((@IsNull_equModel = 1 AND [equModel] IS NULL) OR ([equModel] = @Original_equModel)) AND ((@IsNull_equSerial = 1 AND [equSerial] IS NULL) OR ([equSerial] = @Original_equSerial)) AND ([custID] = @Original_custID) AND ([equtypeID] = @Original_equtypeID) AND ([equManuID] = @Original_equManuID))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_equModel" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equModel" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_equModel" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equModel" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_equSerial" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equSerial" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_equSerial" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equSerial" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_custID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="custID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_equtypeID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equtypeID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_equManuID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equManuID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [equipment] ([equModel], [equSerial], [custID], [equtypeID], [equManuID]) VALUES (@equModel, @equSerial, @custID, @equtypeID, @equManuID);
+SELECT id, equModel, equSerial, custID, equtypeID, equManuID FROM equipment WHERE (id = SCOPE_IDENTITY())</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@equModel" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equModel" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@equSerial" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equSerial" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@custID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="custID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@equtypeID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equtypeID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@equManuID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equManuID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        id, equModel, equSerial, custID, equtypeID, equManuID
+FROM            equipment</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [equipment] SET [equModel] = @equModel, [equSerial] = @equSerial, [custID] = @custID, [equtypeID] = @equtypeID, [equManuID] = @equManuID WHERE (([id] = @Original_id) AND ((@IsNull_equModel = 1 AND [equModel] IS NULL) OR ([equModel] = @Original_equModel)) AND ((@IsNull_equSerial = 1 AND [equSerial] IS NULL) OR ([equSerial] = @Original_equSerial)) AND ([custID] = @Original_custID) AND ([equtypeID] = @Original_equtypeID) AND ([equManuID] = @Original_equManuID));
+SELECT id, equModel, equSerial, custID, equtypeID, equManuID FROM equipment WHERE (id = @id)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@equModel" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equModel" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@equSerial" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equSerial" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@custID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="custID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@equtypeID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equtypeID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@equManuID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equManuID" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_id" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="id" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_equModel" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equModel" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_equModel" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equModel" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@IsNull_equSerial" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equSerial" SourceColumnNullMapping="true" SourceVersion="Original" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@Original_equSerial" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="equSerial" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_custID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="custID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_equtypeID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equtypeID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Original_equManuID" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="equManuID" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="id" ColumnName="id" DataSourceName="[F:\2020 FIRST TERM\EMMASSMALLENGINES-MAIN\EMMASLIBRARY\EMMAS.MDF].dbo.equipment" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@id" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="id" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="equModel" DataSetColumn="equModel" />
+              <Mapping SourceColumn="equSerial" DataSetColumn="equSerial" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="equtypeID" DataSetColumn="equtypeID" />
+              <Mapping SourceColumn="equManuID" DataSetColumn="equManuID" />
+              <Mapping SourceColumn="custID" DataSetColumn="custID" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EquipmentPageDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="EquipmentPageDataSet" msprop:Generator_UserDSName="EquipmentPageDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="customer" msprop:Generator_TableClassName="customerDataTable" msprop:Generator_TableVarName="tablecustomer" msprop:Generator_TablePropName="customer" msprop:Generator_RowDeletingName="customerRowDeleting" msprop:Generator_RowChangingName="customerRowChanging" msprop:Generator_RowEvHandlerName="customerRowChangeEventHandler" msprop:Generator_RowDeletedName="customerRowDeleted" msprop:Generator_UserTableName="customer" msprop:Generator_RowChangedName="customerRowChanged" msprop:Generator_RowEvArgName="customerRowChangeEvent" msprop:Generator_RowClassName="customerRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="custFullName" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columncustFullName" msprop:Generator_ColumnPropNameInRow="custFullName" msprop:Generator_ColumnPropNameInTable="custFullNameColumn" msprop:Generator_UserColumnName="custFullName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="81" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="equipment" msprop:Generator_TableClassName="equipmentDataTable" msprop:Generator_TableVarName="tableequipment" msprop:Generator_TablePropName="equipment" msprop:Generator_RowDeletingName="equipmentRowDeleting" msprop:Generator_RowChangingName="equipmentRowChanging" msprop:Generator_RowEvHandlerName="equipmentRowChangeEventHandler" msprop:Generator_RowDeletedName="equipmentRowDeleted" msprop:Generator_UserTableName="equipment" msprop:Generator_RowChangedName="equipmentRowChanged" msprop:Generator_RowEvArgName="equipmentRowChangeEvent" msprop:Generator_RowClassName="equipmentRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="equModel" msprop:Generator_ColumnVarNameInTable="columnequModel" msprop:Generator_ColumnPropNameInRow="equModel" msprop:Generator_ColumnPropNameInTable="equModelColumn" msprop:Generator_UserColumnName="equModel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="equSerial" msprop:Generator_ColumnVarNameInTable="columnequSerial" msprop:Generator_ColumnPropNameInRow="equSerial" msprop:Generator_ColumnPropNameInTable="equSerialColumn" msprop:Generator_UserColumnName="equSerial" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="custID" msprop:Generator_ColumnVarNameInTable="columncustID" msprop:Generator_ColumnPropNameInRow="custID" msprop:Generator_ColumnPropNameInTable="custIDColumn" msprop:Generator_UserColumnName="custID" type="xs:int" />
+              <xs:element name="equtypeID" msprop:Generator_ColumnVarNameInTable="columnequtypeID" msprop:Generator_ColumnPropNameInRow="equtypeID" msprop:Generator_ColumnPropNameInTable="equtypeIDColumn" msprop:Generator_UserColumnName="equtypeID" type="xs:int" />
+              <xs:element name="equManuID" msprop:Generator_ColumnVarNameInTable="columnequManuID" msprop:Generator_ColumnPropNameInRow="equManuID" msprop:Generator_ColumnPropNameInTable="equManuIDColumn" msprop:Generator_UserColumnName="equManuID" type="xs:int" />
+              <xs:element name="eqtType" msprop:Generator_ColumnVarNameInTable="columneqtType" msprop:Generator_ColumnPropNameInRow="eqtType" msprop:Generator_ColumnPropNameInTable="eqtTypeColumn" msprop:Generator_UserColumnName="eqtType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="manName" msprop:Generator_ColumnVarNameInTable="columnmanName" msprop:Generator_ColumnPropNameInRow="manName" msprop:Generator_ColumnPropNameInTable="manNameColumn" msprop:Generator_UserColumnName="manName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="equip_type" msprop:Generator_TableClassName="equip_typeDataTable" msprop:Generator_TableVarName="tableequip_type" msprop:Generator_RowChangedName="equip_typeRowChanged" msprop:Generator_TablePropName="equip_type" msprop:Generator_RowDeletingName="equip_typeRowDeleting" msprop:Generator_RowChangingName="equip_typeRowChanging" msprop:Generator_RowEvHandlerName="equip_typeRowChangeEventHandler" msprop:Generator_RowDeletedName="equip_typeRowDeleted" msprop:Generator_RowClassName="equip_typeRow" msprop:Generator_UserTableName="equip_type" msprop:Generator_RowEvArgName="equip_typeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="eqtType" msprop:Generator_ColumnVarNameInTable="columneqtType" msprop:Generator_ColumnPropNameInRow="eqtType" msprop:Generator_ColumnPropNameInTable="eqtTypeColumn" msprop:Generator_UserColumnName="eqtType" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="manufacturer" msprop:Generator_TableClassName="manufacturerDataTable" msprop:Generator_TableVarName="tablemanufacturer" msprop:Generator_RowChangedName="manufacturerRowChanged" msprop:Generator_TablePropName="manufacturer" msprop:Generator_RowDeletingName="manufacturerRowDeleting" msprop:Generator_RowChangingName="manufacturerRowChanging" msprop:Generator_RowEvHandlerName="manufacturerRowChangeEventHandler" msprop:Generator_RowDeletedName="manufacturerRowDeleted" msprop:Generator_RowClassName="manufacturerRow" msprop:Generator_UserTableName="manufacturer" msprop:Generator_RowEvArgName="manufacturerRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="manName" msprop:Generator_ColumnVarNameInTable="columnmanName" msprop:Generator_ColumnPropNameInRow="manName" msprop:Generator_ColumnPropNameInTable="manNameColumn" msprop:Generator_UserColumnName="manName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="EquipmentUpdate" msprop:Generator_TableClassName="EquipmentUpdateDataTable" msprop:Generator_TableVarName="tableEquipmentUpdate" msprop:Generator_TablePropName="EquipmentUpdate" msprop:Generator_RowDeletingName="EquipmentUpdateRowDeleting" msprop:Generator_RowChangingName="EquipmentUpdateRowChanging" msprop:Generator_RowEvHandlerName="EquipmentUpdateRowChangeEventHandler" msprop:Generator_RowDeletedName="EquipmentUpdateRowDeleted" msprop:Generator_UserTableName="EquipmentUpdate" msprop:Generator_RowChangedName="EquipmentUpdateRowChanged" msprop:Generator_RowEvArgName="EquipmentUpdateRowChangeEvent" msprop:Generator_RowClassName="EquipmentUpdateRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="equModel" msprop:Generator_ColumnVarNameInTable="columnequModel" msprop:Generator_ColumnPropNameInRow="equModel" msprop:Generator_ColumnPropNameInTable="equModelColumn" msprop:Generator_UserColumnName="equModel" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="equSerial" msprop:Generator_ColumnVarNameInTable="columnequSerial" msprop:Generator_ColumnPropNameInRow="equSerial" msprop:Generator_ColumnPropNameInTable="equSerialColumn" msprop:Generator_UserColumnName="equSerial" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="30" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="equtypeID" msprop:Generator_ColumnVarNameInTable="columnequtypeID" msprop:Generator_ColumnPropNameInRow="equtypeID" msprop:Generator_ColumnPropNameInTable="equtypeIDColumn" msprop:Generator_UserColumnName="equtypeID" type="xs:int" />
+              <xs:element name="equManuID" msprop:Generator_ColumnVarNameInTable="columnequManuID" msprop:Generator_ColumnPropNameInRow="equManuID" msprop:Generator_ColumnPropNameInTable="equManuIDColumn" msprop:Generator_UserColumnName="equManuID" type="xs:int" />
+              <xs:element name="custID" msprop:Generator_ColumnVarNameInTable="columncustID" msprop:Generator_ColumnPropNameInRow="custID" msprop:Generator_ColumnPropNameInTable="custIDColumn" msprop:Generator_UserColumnName="custID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:customer" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="equipment_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:equipment" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="equip_type_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:equip_type" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="manufacturer_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:manufacturer" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="EquipmentUpdate_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EquipmentUpdate" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

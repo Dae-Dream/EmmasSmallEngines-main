@@ -1,0 +1,305 @@
+﻿using EmmasLibrary;
+using EmmasLibrary.SalesPageDataSetTableAdapters;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using static EmmasLibrary.SalesPageDataSet;
+
+namespace EmmasSmallEngines
+	//Michael Quill, Stephen Bodner
+{
+	public partial class Sales : Page
+	{
+		private static SalesPageDataSet dsSales;
+
+		private static CustomerTableAdapter daCustomer;
+		private static EmployeeTableAdapter daEmployee;
+		private static ProductTableAdapter daProduct;
+		private static ReceiptTableAdapter daReceipt;
+		private static OrderLineTableAdapter daOrderLine;
+
+		private static DataTable table;
+
+		static Sales()
+		{
+			dsSales = new SalesPageDataSet();
+			daCustomer = new CustomerTableAdapter();
+			daEmployee = new EmployeeTableAdapter();
+			daProduct = new ProductTableAdapter();
+			daReceipt = new ReceiptTableAdapter();
+			daOrderLine = new OrderLineTableAdapter();
+
+			try
+			{
+				daCustomer.Fill(dsSales.Customer);
+				daEmployee.Fill(dsSales.Employee);
+				daProduct.Fill(dsSales.Product);
+				daOrderLine.Fill(dsSales.OrderLine);
+				daReceipt.Fill(dsSales.Receipt);
+
+			}
+			catch { }
+		}
+		protected void Page_Load(object sender, EventArgs e)
+		{
+			try
+			{
+				daCustomer.Fill(dsSales.Customer);
+				daEmployee.Fill(dsSales.Employee);
+				daProduct.Fill(dsSales.Product);
+			}
+			catch { }
+
+
+			if (!IsPostBack)
+			{
+				table = new DataTable();
+				table.Columns.Add("ID");
+				table.Columns.Add("Name");
+				table.Columns.Add("Quantity");
+				table.Columns.Add("Price");
+				gridViewOrderItems.DataSource = table;
+				gridViewOrderItems.DataBind();
+			}
+			
+		}
+
+		protected void Page_LoadComplete(object sender, EventArgs e)
+		{
+			if (!IsPostBack)
+			{
+				string custID = Request.QueryString["custID"];
+				this.ddCustomer.SelectedValue = custID;
+
+				if (!String.IsNullOrEmpty(custID) && custID != "-1")
+				{
+					
+					CustomerRow row = dsSales.Customer.FindByid(Convert.ToInt32(custID));
+					txtName.Text = row[8].ToString();
+					txtEmail.Text = row[7].ToString();
+					txtPhone.Text = row[3].ToString();
+					txtPostalCode.Text = row[6].ToString();
+					txtAddress.Text = row[4].ToString();
+					txtCity.Text = row[5].ToString();
+
+					
+				}
+			}
+
+		}
+
+		protected void btnAddItem_Click(object sender, EventArgs e)
+		{
+			if(IsValid)
+			{
+				btnSearchItem_Click(sender, e);
+				try
+				{
+					if (txtQuantity.Text.Length > 0)
+					{
+						table.Rows.Add(txtItemID.Text, txtItemName.Text, txtQuantity.Text, txtPrice.Text);
+						gridViewOrderItems.DataSource = table;
+						gridViewOrderItems.DataBind();
+
+						decimal subtotal = 0m;
+						decimal tax = 0m;
+						decimal total = 0m;
+
+						foreach (DataRow row in table.Rows)
+						{
+							decimal price = Decimal.Parse(row.ItemArray[3].ToString(), System.Globalization.NumberStyles.Currency);
+							int quant = Convert.ToInt32(row.ItemArray[2].ToString());
+							subtotal += price * quant;
+							tax = subtotal * 0.13m;
+							total = subtotal + tax;
+						}
+
+						txtSubtotal.Text = subtotal.ToString("c");
+						txtTax.Text = tax.ToString("c");
+						txtTotal.Text = total.ToString("c");
+					}
+				}
+				catch
+				{
+
+				}
+			}
+			
+			
+		}
+
+		 
+
+		protected void btnCompleteSale_Click(object sender, EventArgs e)
+		{
+			int receiptID = -1;
+			try
+			{
+				ReceiptDataTable dtBefore = new ReceiptDataTable();
+				daReceipt.Fill(dtBefore);
+				List<int> before = new List<int>();
+				foreach (ReceiptRow row in dtBefore)
+				{
+					before.Add(row.id);
+				}
+
+				daReceipt.Insert(txtOrderNumber.Text, DateTime.Now, chkPay.Checked, Convert.ToInt32(ddPayment.SelectedValue), Convert.ToInt32(ddCustomer.SelectedValue), Convert.ToInt32(ddEmployee.SelectedValue));
+
+				daReceipt.Update(dsSales.Receipt);
+				dsSales.AcceptChanges();
+
+				ReceiptDataTable dtAfter = new ReceiptDataTable();
+				daReceipt.Fill(dtAfter);
+				List<int> after = new List<int>();
+				foreach (ReceiptRow row in dtAfter)
+				{
+					after.Add(row.id);
+				}
+
+				List<int> diff = new List<int>(after.Except(before).ToList());
+
+				if (diff.Count == 1)
+				{
+					receiptID = diff[0];
+				}
+
+				if(receiptID != -1)
+				{
+					foreach (DataRow row in table.Rows)
+					{
+						decimal price = Decimal.Parse(row.ItemArray[3].ToString(), System.Globalization.NumberStyles.Currency);
+						int quant = Convert.ToInt32(row.ItemArray[2].ToString());
+						int invID = Convert.ToInt32(row.ItemArray[0].ToString());
+						daOrderLine.Insert(price, quant, false, "", invID, receiptID); //database has field for order line note, and bool order required. we dont for now
+					}
+					daOrderLine.Update(dsSales.OrderLine);
+					dsSales.AcceptChanges();
+					Response.Redirect("Receipt.aspx?receiptID=" + receiptID.ToString());
+				}
+
+
+				
+
+
+			}
+			catch { 
+				//lblFirstName.Text = "Something happened";
+			}
+
+
+
+
+		}
+		protected void btnCancelSale_Click(object sender, EventArgs e)
+		{
+			table.Rows.Clear();
+			gridViewOrderItems.DataSource = table;
+			gridViewOrderItems.DataBind();
+		}
+
+		private ProductRow SearchItemID(int id)
+		{
+			try
+			{
+				ProductRow row = dsSales.Product.FindByid(id);
+				return row;
+			} catch
+			{
+				return null;
+			}
+
+		}
+
+		protected void btnSearchItem_Click(object sender, EventArgs e)
+		{
+			string selectedID = this.txtItemID.Text;
+			try
+			{
+				if (selectedID.Length > 0)
+				{
+					ProductRow row = SearchItemID(Convert.ToInt32(selectedID));
+					if (row != null)
+					{
+						txtItemName.Text = row.ItemArray[3].ToString() + " - " + row.ItemArray[1].ToString();
+						string priceString = row.ItemArray[7].ToString();
+						if (!String.IsNullOrEmpty(priceString))
+						{
+							decimal price = Convert.ToDecimal(priceString);
+							txtPrice.Text = price.ToString("c");
+						} else
+						{
+							txtPrice.Text = "None in stock.";
+						}
+						string stock = row.ItemArray[4].ToString();
+						txtInStock.Text = (String.IsNullOrEmpty(stock) || stock == "0") ? "None in stock." : stock;
+						txtDescription.Text = row.ItemArray[2].ToString();
+						txtItemSize.Text = row.ItemArray[5].ToString() + " " + row.ItemArray[6].ToString();
+					} else
+					{
+						txtItemName.Text = "ITEM NOT FOUND";
+						txtPrice.Text = "";
+						txtInStock.Text = "";
+						txtDescription.Text = "";
+						txtItemSize.Text = "";
+					}
+					
+				}
+				
+			} catch
+			{
+
+			}
+		}
+
+		protected void ddCustomer_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			txtName.Text = "";
+			txtEmail.Text = "";
+			txtPhone.Text = "";
+			txtPostalCode.Text = "";
+			txtAddress.Text = "";
+			txtCity.Text = "";
+
+
+			string selectedID = this.ddCustomer.SelectedValue;
+			if(selectedID.Length > 0 && selectedID != "-1")
+			{
+				CustomerRow row = dsSales.Customer.FindByid(Convert.ToInt32(selectedID));
+				txtName.Text = row[8].ToString();
+				txtEmail.Text = row[7].ToString();
+				txtPhone.Text = row[3].ToString();
+				txtPostalCode.Text = row[6].ToString();
+				txtAddress.Text = row[4].ToString();
+				txtCity.Text = row[5].ToString();
+
+			}
+		}
+
+		protected void ddEmployee_SelectedIndexChanged(object sender, EventArgs e)
+		{
+
+		}
+
+        protected void btnOrder_Click(object sender, EventArgs e)
+        {
+			Response.Redirect("NewOrder.aspx");
+		}
+
+		protected void valItemIDCustom_ServerValidate(object source, ServerValidateEventArgs args)
+		{
+
+			ProductRow row = SearchItemID(Convert.ToInt32(args.Value));
+			if(row == null)
+			{
+				args.IsValid = false;
+			} else
+			{
+				args.IsValid = true;
+			}
+		}
+	}
+}

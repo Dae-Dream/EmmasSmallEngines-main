@@ -1,0 +1,114 @@
+﻿using EmmasLibrary;
+using EmmasLibrary.RepairTrackerDataSetTableAdapters;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using static EmmasLibrary.RepairTrackerDataSet;
+
+namespace EmmasSmallEngines
+{
+	public partial class RepairTracker : System.Web.UI.Page
+	{
+		private static Stopwatch sw;
+
+		private static RepairTrackerDataSet dsRepairTracker;
+		private static ServiceOrderTableAdapter daServiceOrder;
+		protected void Page_Load(object sender, EventArgs e)
+		{
+
+			txtDateIn.ReadOnly = true;
+			txtServiceDesc.ReadOnly = true;
+			txtEquipID.ReadOnly = true;
+			txtEquipModel.ReadOnly = true;
+			txtEquipSerial.ReadOnly = true;
+			txtEquipType.ReadOnly = true;
+			txtService.ReadOnly = true;
+			
+
+
+			if (!IsPostBack)
+			{
+				sw = new Stopwatch();
+				daServiceOrder = new ServiceOrderTableAdapter();
+				dsRepairTracker = new RepairTrackerDataSet();
+
+				try
+				{
+					daServiceOrder.Fill(dsRepairTracker.ServiceOrder);
+				} catch
+				{
+
+				}
+				
+			}
+
+		}
+
+		protected void btnStartTimer_Click(object sender, EventArgs e)
+		{
+			sw.Start();
+		}
+
+		protected void btnPauseTimer_Click(object sender, EventArgs e)
+		{
+			sw.Stop();
+			DisplayTime();
+		}
+
+		protected void btnResetTimer_Click(object sender, EventArgs e)
+		{
+			sw.Reset();
+			DisplayTime();
+		}
+
+		protected void Timer1_Tick(object sender, EventArgs e)
+		{
+			DisplayTime();
+		}
+
+		protected void btnShowTable_Click(object sender, EventArgs e)
+		{
+			tableContainer.Visible = true;
+			btnContainer.Visible = false;
+		}
+
+		private void DisplayTime()
+		{
+			string elapsedTime = String.Format("{0:00}:{1:00}:{2:00}", sw.Elapsed.Hours, sw.Elapsed.Minutes, sw.Elapsed.Seconds);
+			lblTimerDisplay.Text = elapsedTime;
+		}
+
+		protected void gvRepairs_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			tableContainer.Visible = false;
+			btnContainer.Visible = true;
+
+			txtDateIn.Text = "";
+			txtDateOut.Text = "";
+			txtService.Text = "";
+			txtServiceDesc.Text = "";
+			txtEquipID.Text = "";
+			txtEquipType.Text = "";
+			txtEquipModel.Text = "";
+			txtEquipSerial.Text = "";
+			//ddTech.SelectedValue = "0";
+			txtDescription.Text = "";
+
+			ServiceOrderRow row = dsRepairTracker.ServiceOrder.FindByid(Convert.ToInt32(gvRepairs.SelectedRow.Cells[1].Text));
+			txtDateIn.Text = row.serordDateIn.ToString("d");
+			txtDateOut.Text = row.serordDateOut.ToString("d");
+			txtService.Text = row.serName;
+			txtServiceDesc.Text = row.serDescription;
+			txtEquipID.Text = row.equipID.ToString();
+			txtEquipType.Text = row.eqtType;
+			txtEquipModel.Text = row.equModel;
+			txtEquipSerial.Text = row.equSerial;
+			//ddTech.SelectedValue = row.empFullName;
+			txtDescription.Text = row.serordIssue;
+		}
+	}
+}

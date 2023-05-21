@@ -1,0 +1,421 @@
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\EmmasSmallEngines.dll.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\EmmasSmallEngines.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\EmmasSmallEngines.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\csc.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\csc.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\csc.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\csi.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\csi.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\csi.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.AppContext.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Console.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Net.Http.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\vbc.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\vbc.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\vbc.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Antlr3.Runtime.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Newtonsoft.Json.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\System.Web.Optimization.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\WebGrease.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\System.Web.Optimization.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Newtonsoft.Json.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Antlr3.Runtime.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\obj\Debug\EmmasSmallEngines.csprojAssemblyReference.cache
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\obj\Debug\EmmasSmallEngines.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\obj\Debug\EmmasSmallEngines.csproj.CopyComplete
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\obj\Debug\EmmasSmallEngines.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines - Copy\obj\Debug\EmmasSmallEngines.pdb
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\EmmasSmallEngines.dll.config
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\EmmasSmallEngines.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\EmmasSmallEngines.pdb
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\csc.exe
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\csc.exe.config
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\csc.rsp
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\csi.exe
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\csi.exe.config
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\csi.rsp
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.Managed.Core.targets
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.AppContext.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Collections.Immutable.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Console.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Globalization.Calendars.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.IO.Compression.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.IO.FileSystem.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Net.Http.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Net.Sockets.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Reflection.Metadata.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.ValueTuple.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Xml.XmlDocument.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Xml.XPath.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\vbc.exe
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\vbc.exe.config
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\vbc.rsp
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\VBCSCompiler.exe
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\roslyn\VBCSCompiler.exe.config
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Antlr3.Runtime.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\AspNet.ScriptManager.bootstrap.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\AspNet.ScriptManager.jQuery.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.AspNet.FriendlyUrls.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.ScriptManager.MSAjax.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.ScriptManager.WebForms.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.Web.Infrastructure.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Newtonsoft.Json.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\System.Web.Optimization.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\WebGrease.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\System.Web.Optimization.xml
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Newtonsoft.Json.xml
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Antlr3.Runtime.pdb
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.AspNet.FriendlyUrls.xml
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\obj\Debug\EmmasSmallEngines.csprojAssemblyReference.cache
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\obj\Debug\EmmasSmallEngines.csproj.CopyComplete
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\obj\Debug\EmmasSmallEngines.dll
+F:\2020 First Term\PROG1180-03 Project Planning\Git_Stuff\obj\Debug\EmmasSmallEngines.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\EmmasSmallEngines.dll.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\EmmasSmallEngines.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\EmmasSmallEngines.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\csc.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\csc.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\csc.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\csi.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\csi.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\csi.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.AppContext.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Console.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Net.Http.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\vbc.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\vbc.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\vbc.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Antlr3.Runtime.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Newtonsoft.Json.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\System.Web.Optimization.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\WebGrease.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\System.Web.Optimization.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Newtonsoft.Json.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Antlr3.Runtime.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\obj\Debug\EmmasSmallEngines.csprojAssemblyReference.cache
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\obj\Debug\EmmasSmallEngines.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\obj\Debug\EmmasSmallEngines.csproj.CopyComplete
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\obj\Debug\EmmasSmallEngines.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\Git_Stuff\obj\Debug\EmmasSmallEngines.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EmmasSmallEngines.dll.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EmmasSmallEngines.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EmmasSmallEngines.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\csc.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\csc.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\csc.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\csi.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\csi.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\csi.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.AppContext.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Console.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Net.Http.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\vbc.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\vbc.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\vbc.rsp
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Antlr3.Runtime.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EmmasLibrary.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EntityFramework.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EntityFramework.SqlServer.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Security.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Newtonsoft.Json.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Owin.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\System.Web.Optimization.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\WebGrease.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EmmasLibrary.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EmmasLibrary.dll.config
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EntityFramework.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\EntityFramework.SqlServer.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Security.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\System.Web.Optimization.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Newtonsoft.Json.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Antlr3.Runtime.pdb
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.csprojAssemblyReference.cache
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.csproj.CopyComplete
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.dll
+C:\Users\Mike\Documents\3Term\ProjectPlanning\WebApp\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.pdb
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EmmasSmallEngines.dll.config
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EmmasSmallEngines.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EmmasSmallEngines.pdb
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\csc.exe
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\csc.exe.config
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\csc.rsp
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\csi.exe
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\csi.exe.config
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\csi.rsp
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.AppContext.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Console.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.IO.Compression.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Net.Http.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Net.Sockets.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.ValueTuple.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Xml.XPath.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\vbc.exe
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\vbc.exe.config
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\vbc.rsp
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\VBCSCompiler.exe
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Antlr3.Runtime.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\AspNet.ScriptManager.bootstrap.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EmmasLibrary.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EntityFramework.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EntityFramework.SqlServer.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Security.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Newtonsoft.Json.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Owin.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\System.Web.Optimization.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\WebGrease.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EmmasLibrary.pdb
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EmmasLibrary.dll.config
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EntityFramework.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\EntityFramework.SqlServer.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Security.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\System.Web.Optimization.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Newtonsoft.Json.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Antlr3.Runtime.pdb
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.csproj.AssemblyReference.cache
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.csproj.CoreCompileInputs.cache
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.csproj.CopyComplete
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.dll
+C:\Users\samw\OneDrive\Desktop\EmmasSmallEngines-main\EmmasSmallEngines\obj\Debug\EmmasSmallEngines.pdb
